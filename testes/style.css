@@ -1,0 +1,80 @@
+body{background-color:black; 
+    color: rgb(189, 180, 180);}
+
+.container, header{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    height: 330px;
+}
+
+.articles article{width: 45%;}
+
+section{
+    padding: 16px 0 16px 0;
+}
+
+section .container img{
+    height: 330px;
+}
+
+section img{
+    height: 330px;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin: 16px 0;
+}
+
+section img{
+    margin-right: 32px;
+}
+
+form input, 
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+}
+
+.social-links img{
+    height: 40px;
+}
+
+form button{
+    border: none;
+    color: black;
+    background-color: white;
+}
+
+form button:hover{
+    background-color: rgb(228, 222, 222);
+}
+
+input:focus, textarea:focus{
+    outline-color: white;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    padding: 16px 0;
+}
